@@ -13,7 +13,7 @@ function ShoppingList() {
             .then((resp) => resp.json())
             .then((items) => 
               setItems(items)
-            )
+            ) 
     }
     fetchShoppingItems()
   },[])
